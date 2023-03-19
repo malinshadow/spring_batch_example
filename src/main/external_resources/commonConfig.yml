@@ -1,0 +1,17 @@
+datasource:
+  #DB Connection for Covered Care
+  source1:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_example
+    username: user
+    password: pwd
+
+  source2:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_example
+    username: user
+    password: pwd
+
+
+logging:
+  config: classpath:logback.xml
